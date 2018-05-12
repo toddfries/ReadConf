@@ -1,6 +1,6 @@
 # ReadConf
 ```
-Subject: ReadConf - simple wrapper around Tiny::onfig
+Subject: ReadConf - simple wrapper around Config::Tiny
 From: Todd T. Fries <todd@fries.net>
 To: anyone reading this
 ```
