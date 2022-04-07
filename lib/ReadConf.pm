@@ -36,6 +36,9 @@ sub readconf {
 	}
 	$me->conf($conf);
 	my $config = Config::Tiny->read( $conf );
+	if (!defined($config)) {
+		die("config file '$conf' does not parse: ".Config::Tiny->errstr);
+	}
 	return $config;
 }
 
